@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 #def a function
 def hello():
-    return "Hello World!!"
+    return "Testing text for Reddit and Heroku..."
 
 # # make second route
 # @app.route("/about")

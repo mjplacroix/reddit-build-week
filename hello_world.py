@@ -4,7 +4,7 @@
 from flask import Flask, render_template
 
 # make the application
-app = Flask(__name__)
+APP = Flask(__name__)
 
 # make the route
 @app.route("/")

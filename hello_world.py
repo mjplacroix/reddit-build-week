@@ -1,15 +1,15 @@
 """test page for Flask and Heroku"""
 from flask import Flask, render_template
 
+
+app = Flask(__name__)
 # make the application
 #APP = Flask(__name__)
-
-def create_app():
-    app = Flask(__name__)
-    
+    # app = Flask(__name__)
     # make the route
-    @app.route("/")
-        return "Testing text for Reddit and Heroku..."
+@app.route("/")
+def create_app():
+    return "Testing text for Reddit and Heroku..."
 
 
 
